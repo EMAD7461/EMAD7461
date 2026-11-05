@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mohamed Emad — Engineering, Data and Business Systems</title>
+  <desc id="desc">A modern dark navy portfolio banner with abstract connected nodes, a data chart, and the portfolio focus areas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.6" stop-color="#102c46"/>
+      <stop offset="1" stop-color="#0b3b46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#94a3b8" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1230" cy="50" r="190" fill="#2dd4bf" opacity=".06"/>
+  <circle cx="1120" cy="350" r="220" fill="#60a5fa" opacity=".07"/>
+  <path d="M0 280 C220 220 300 350 520 275 S820 200 1010 265 S1280 300 1400 220" fill="none" stroke="url(#accent)" stroke-width="3" stroke-opacity=".55"/>
+  <g transform="translate(900 60)" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".85">
+    <path d="M30 190 L135 135 L230 160 L330 70"/>
+    <path d="M30 190 L30 220 L135 220 L135 135 M230 160 L230 220 L330 220 L330 70"/>
+    <circle cx="30" cy="190" r="8" fill="#2dd4bf"/>
+    <circle cx="135" cy="135" r="8" fill="#60a5fa"/>
+    <circle cx="230" cy="160" r="8" fill="#2dd4bf"/>
+    <circle cx="330" cy="70" r="8" fill="#60a5fa"/>
+    <path d="M20 230H350" stroke="#cbd5e1" stroke-opacity=".35"/>
+  </g>
+  <g transform="translate(1040 105)" opacity=".8">
+    <rect x="0" y="105" width="22" height="70" rx="5" fill="#2dd4bf"/>
+    <rect x="36" y="75" width="22" height="100" rx="5" fill="#60a5fa"/>
+    <rect x="72" y="40" width="22" height="135" rx="5" fill="#2dd4bf"/>
+    <rect x="108" y="15" width="22" height="160" rx="5" fill="#60a5fa"/>
+  </g>
+  <g fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif">
+    <text x="88" y="112" font-size="24" letter-spacing="5" fill="#7dd3fc">PROFESSIONAL PORTFOLIO</text>
+    <text x="84" y="190" font-size="62" font-weight="700" fill="#ffffff">Mohamed Emad</text>
+    <text x="88" y="238" font-size="25" fill="#cbd5e1">Engineering Operations  |  Data &amp; BI  |  ERP  |  Software</text>
+    <text x="88" y="292" font-size="18" letter-spacing="2" fill="#99f6e4">TURNING BUSINESS PROCESSES INTO CLEAR DATA AND PRACTICAL SOLUTIONS</text>
+  </g>
+</svg>
