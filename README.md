@@ -6,6 +6,8 @@
   <a href="https://www.linkedin.com/in/mohmedemad/">LinkedIn</a> &nbsp;•&nbsp;
   <a href="https://github.com/EMAD7461">GitHub</a> &nbsp;•&nbsp;
   <a href="mailto:emad7461@gmail.com">Email</a>
+  <br/><br/>
+  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><strong>✦ Scroll through all 69 certificate images →</strong></a>
 </div>
 
 <table>
@@ -49,15 +51,15 @@
 
 ## Featured Portfolio
 
-### Credentials Dashboard
+### Certificates & Credentials Gallery
 
-An interactive collection of 69 certificates, badges, and program records, organized across eight learning areas. The dashboard includes search, topic filters, collection insights, and direct links to each source document.
+A visual collection of 69 certificates, badges, and program records across eight learning areas. The GitHub gallery is designed for scrolling, and every preview opens the original credential file.
 
 <p align="center">
-  <a href="https://github.com/EMAD7461/EMAD7461/tree/main/certificates"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/certificates/previews/data-analytics/discover20-data-analysis-internship.jpg" alt="Discover20 Data Analysis Internship certificate preview" width="76%"/></a>
+  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/certificates/previews/data-analytics/discover20-data-analysis-internship.jpg" alt="Discover20 Data Analysis Internship certificate preview" width="76%"/></a>
 </p>
 
-[**Browse the certificate collection →**](https://github.com/EMAD7461/EMAD7461/tree/main/certificates) · [View the dashboard source](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/index.html)
+[**Scroll through the certificate gallery →**](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md) · [Browse the organized certificate folders](https://github.com/EMAD7461/EMAD7461/tree/main/certificates)
 ### 1. Olist E-Commerce Analytics
 **SQL Server · Python · Power Query · Excel · Power BI**
 
