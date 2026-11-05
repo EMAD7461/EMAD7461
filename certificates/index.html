@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1925">
+  <meta name="description" content="An interactive portfolio of Mohamed Emad's certificates in data analytics, AI, cybersecurity, cloud, software development, and business.">
+  <title>Credentials Portfolio — Mohamed Emad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#credentials">Skip to credentials</a>
+  <header class="topbar shell">
+    <a class="brand" href="#top" aria-label="Mohamed Emad portfolio home"><span class="brand-mark">ME</span><span>Mohamed Emad<span class="brand-sub">Learning portfolio</span></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="#insights">Insights</a><a href="#credentials">Credentials</a><a href="https://github.com/EMAD7461" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch color theme"><span aria-hidden="true">◐</span><span class="theme-label">Light mode</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Credentials · Skills · Progress</p>
+        <h1>Learning with a<br><em>clear direction.</em></h1>
+        <p class="hero-lede">A curated record of professional learning across data analytics, business intelligence, AI, and digital delivery.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#credentials">Explore credentials <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/EMAD7461/EMAD7461" target="_blank" rel="noreferrer">View GitHub profile <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-tags" aria-label="Core learning areas"><span>Data & BI</span><span>AI Governance</span><span>Digital Delivery</span></div>
+      </div>
+      <aside class="hero-card" aria-label="Portfolio highlight">
+        <div class="hero-card-top"><span class="card-kicker">PORTFOLIO SNAPSHOT</span><span class="live-indicator">CURRENT</span></div>
+        <div class="orbit-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><span class="orbit-core">ME</span><span class="orbit-star star-one">✳</span><span class="orbit-star star-two">✳</span></div>
+        <p class="hero-card-title">Curiosity, made tangible.</p>
+        <p class="hero-card-text">Credentials connect a practical engineering background with an expanding toolkit in data, AI, and technology.</p>
+        <div class="hero-card-footer"><span>FOCUS</span><strong>Analytics × AI × Business</strong></div>
+      </aside>
+    </section>
+
+    <section class="stats shell" aria-label="Portfolio metrics">
+      <article class="stat-card stat-feature"><span class="stat-label">Credential files</span><strong id="stat-total">—</strong><span class="stat-note">Organized by learning area</span></article>
+      <article class="stat-card"><span class="stat-label">Learning areas</span><strong id="stat-areas">—</strong><span class="stat-note">A connected skill set</span></article>
+      <article class="stat-card"><span class="stat-label">Providers</span><strong id="stat-providers">—</strong><span class="stat-note">Programs and platforms</span></article>
+      <article class="stat-card"><span class="stat-label">Verification links</span><strong id="stat-verified">—</strong><span class="stat-note">Direct credential checks</span></article>
+    </section>
+
+    <section class="insights shell" id="insights">
+      <div class="section-heading"><div><p class="eyebrow">01 / LEARNING MAP</p><h2>Where the learning adds up</h2></div><p class="section-intro">Explore the mix of topics behind this portfolio. Select a bar to filter the credentials below.</p></div>
+      <div class="insight-grid">
+        <article class="panel chart-panel"><div class="panel-heading"><div><span class="panel-label">PORTFOLIO BY AREA</span><h3>Learning mix</h3></div><span class="panel-icon" aria-hidden="true">↗</span></div><div id="category-chart" class="category-chart" role="list" aria-label="Credentials by learning area"></div><p class="chart-footnote">Counts include all listed documents, including alternate language editions.</p></article>
+        <article class="panel signal-panel"><span class="panel-label">THE THROUGH-LINE</span><div class="signal-ornament" aria-hidden="true">◌</div><h3 id="insight-title">A practical core, growing outward.</h3><p id="insight-copy">Data analysis and business intelligence form the largest cluster, supported by credentials in AI and cybersecurity, cloud concepts, and software development.</p><div class="signal-tags" id="insight-tags"></div></article>
+      </div>
+    </section>
+
+    <section class="credentials shell" id="credentials">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE COLLECTION</p><h2>Credentials, at a glance</h2></div><p class="section-intro">Search by title, provider, or topic. Open any card to view the original document.</p></div>
+      <div class="toolbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search credentials…" autocomplete="off"><kbd>/</kbd></label>
+        <label class="select-wrap"><span class="sr-only">Filter by learning area</span><select id="category-filter"><option value="all">All learning areas</option></select></label>
+        <label class="select-wrap"><span class="sr-only">Sort credentials</span><select id="sort-select"><option value="recent">Newest first</option><option value="oldest">Oldest first</option><option value="az">Title A–Z</option></select></label>
+      </div>
+      <div class="results-line"><span id="results-count" aria-live="polite">Loading credentials…</span><button type="button" id="clear-filters" class="clear-button" hidden>Clear filters</button></div>
+      <div id="credential-grid" class="credential-grid"></div>
+      <div id="empty-state" class="empty-state" hidden><span class="empty-icon">⌕</span><h3>No matching credentials</h3><p>Try another title, provider, or learning area.</p></div>
+      <div class="load-more-wrap"><button type="button" id="load-more" class="button button-secondary" hidden>Show more credentials <span aria-hidden="true">↓</span></button></div>
+    </section>
+
+    <section class="closing shell"><div><p class="eyebrow">ALWAYS IN PROGRESS</p><h2>Skills grow through<br><em>practice and curiosity.</em></h2></div><a class="button button-light" href="https://github.com/EMAD7461" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a></section>
+  </main>
+
+  <footer class="footer shell"><span>© <span id="current-year"></span> Mohamed Emad</span><span>Built as a living record of learning.</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
