@@ -56,12 +56,12 @@ An end-to-end analytics project based on the Brazilian E-Commerce Public Dataset
 
 <p align="center">
   <strong>Selected analysis visuals</strong><br/>
-  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/monthly_order_trend.png" alt="Olist monthly order trend" width="48%"/>
-  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/top_categories_by_revenue.png" alt="Olist top categories by revenue" width="48%"/>
+  <a href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA"><img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/monthly_order_trend.png" alt="Olist monthly order trend" width="48%"/></a>
+  <a href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA"><img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/top_categories_by_revenue.png" alt="Olist top categories by revenue" width="48%"/></a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/delivery_delay_distribution.png" alt="Olist delivery delay distribution" width="48%"/>
-  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/4.%20ERD%20and%20relational%20schema/Olist%20E-Commerce%20ERD%20%E2%80%94%20Presentation-Ready.png" alt="Olist relational entity relationship diagram" width="48%"/>
+  <a href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA"><img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/delivery_delay_distribution.png" alt="Olist delivery delay distribution" width="48%"/></a>
+  <a href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/4.%20ERD%20and%20relational%20schema"><img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/4.%20ERD%20and%20relational%20schema/Olist%20E-Commerce%20ERD%20%E2%80%94%20Presentation-Ready.png" alt="Olist relational entity relationship diagram" width="48%"/></a>
 </p>
 
 **Key project work**
@@ -114,7 +114,7 @@ A multi-page Power BI project with an editable PBIP report, semantic model, nati
 A team graduation project from the Digital Egypt Pioneers Initiative (DEPI), .NET Web Developer track. The repository includes the web application structure, database assets, ERD, documentation, and presentation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EMAD7461/Hospital-Managment-System/master/ERD.jpeg" alt="Hospital Management System entity relationship diagram" width="72%"/>
+  <a href="https://github.com/EMAD7461/Hospital-Managment-System/blob/master/ERD.jpeg"><img src="https://raw.githubusercontent.com/EMAD7461/Hospital-Managment-System/master/ERD.jpeg" alt="Hospital Management System entity relationship diagram" width="72%"/></a>
 </p>
 
 [**Open Hospital Management repository →**](https://github.com/EMAD7461/Hospital-Managment-System)
