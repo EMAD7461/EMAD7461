@@ -6,7 +6,8 @@ An interactive, searchable portfolio of professional learning across data analyt
 
 ## Portfolio highlights
 
-- **69 certificate files** organized into eight learning areas. Bilingual and alternate certificate copies are retained.
+- **69 certificate records** organized into eight learning areas. Bilingual and alternate certificate copies are retained.
+- Every PDF has a compact first-page image preview; open a card to inspect the artwork, browse adjacent credentials, or open the original file.
 - Data analytics and business intelligence form the largest learning area.
 - The collection includes courses, program certificates, and digital badges from Coursera/Google, DataCamp, IBM SkillsBuild, Securiti Education, Sprints, and other providers.
 - Coursera verification links are available directly from the dashboard where provided on the certificate.
