@@ -7,7 +7,7 @@
   <a href="https://github.com/EMAD7461">GitHub</a> &nbsp;•&nbsp;
   <a href="mailto:emad7461@gmail.com">Email</a>
   <br/><br/>
-  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><strong>✦ Scroll through all 69 certificate images →</strong></a>
+  <a href="https://emad7461.github.io/EMAD7461/"><strong>✦ Open the live portfolio</strong></a> &nbsp;•&nbsp; <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><strong>Browse certificates on GitHub</strong></a>
 </div>
 
 <table>
@@ -51,15 +51,15 @@
 
 ## Featured Portfolio
 
-### Certificate Portfolio
+### Full Portfolio — Live Site & GitHub Archive
 
-A visual collection of 69 certificates, badges, and program records across eight learning areas. The GitHub gallery is designed for scrolling, and every preview opens the original credential file.
+Explore my engineering and data experience, five featured projects, and 69 credentials across eight learning areas. The live site brings the portfolio together; the GitHub gallery provides a scrollable archive with image previews and original files.
 
 <p align="center">
-  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/assets/certificate-portfolio-card.svg" alt="Certificate portfolio summary: 69 credentials across eight learning areas, with 55 document previews" width="100%"/></a>
+  <a href="https://emad7461.github.io/EMAD7461/"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/assets/certificate-portfolio-card.svg" alt="Full portfolio summary: over five years of experience, five featured projects, and 69 credentials" width="100%"/></a>
 </p>
 
-[**Scroll through the certificate gallery →**](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md) · [Browse the organized certificate folders](https://github.com/EMAD7461/EMAD7461/tree/main/certificates)
+[**Open the live HTML portfolio →**](https://emad7461.github.io/EMAD7461/) · [**Browse the certificate archive on GitHub →**](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md)
 ### 1. Olist E-Commerce Analytics
 **SQL Server · Python · Power Query · Excel · Power BI**
 
