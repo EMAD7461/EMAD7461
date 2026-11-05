@@ -1,116 +1,190 @@
 <!-- Profile README for EMAD7461 -->
 
 <div align="center">
-
-# Mohamed Emad
-
-### Civil Engineer | Project Operations & Procurement | Data Analytics & BI | ERP & .NET
-
-**Connecting engineering operations, business processes, and data-driven decision-making.**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional%20Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohmedemad/)
-[![GitHub](https://img.shields.io/badge/GitHub-EMAD7461-181717?style=flat&logo=github)](https://github.com/EMAD7461)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:emad7461@gmail.com)
-
+  <img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/assets/portfolio-banner.svg" alt="Mohamed Emad portfolio banner" width="100%" />
+  <br/>
+  <a href="https://www.linkedin.com/in/mohmedemad/">LinkedIn</a> &nbsp;•&nbsp;
+  <a href="https://github.com/EMAD7461">GitHub</a> &nbsp;•&nbsp;
+  <a href="mailto:emad7461@gmail.com">Email</a>
 </div>
+
+<table>
+  <tr>
+    <td width="31%" valign="top">
+      <h2>Profile Snapshot</h2>
+      <p><strong>Location</strong><br/>Egypt</p>
+      <p><strong>Background</strong><br/>Civil Engineering<br/>FTTH &amp; Fiber-Optic Projects</p>
+      <p><strong>Experience</strong><br/>5+ years in engineering and project operations</p>
+      <p><strong>Professional Focus</strong></p>
+      <ul>
+        <li>Procurement &amp; SCM</li>
+        <li>Project Operations</li>
+        <li>Data Analytics &amp; BI</li>
+        <li>ERP &amp; Business Systems</li>
+        <li>.NET Development</li>
+      </ul>
+      <p><strong>Core Tools</strong><br/>Power BI · SQL Server · Excel · C# · .NET · Python · Odoo · ERPNext · AutoCAD</p>
+      <p><strong>Education</strong><br/>B.Sc. Civil Engineering<br/>AL-SaLaM Higher Institute for Engineering &amp; Technology</p>
+      <p><strong>Languages</strong><br/>Arabic · English (B2)</p>
+      <p><strong>Connect</strong><br/><a href="https://www.linkedin.com/in/mohmedemad/">LinkedIn profile</a><br/><a href="mailto:emad7461@gmail.com">Email Mohamed</a></p>
+    </td>
+    <td width="69%" valign="top">
+      <h2>About Me</h2>
+      <p>I am a Civil Engineer with more than five years of experience in fiber-optic and FTTH project environments. My background in technical-office work gives me an operational understanding of quantities, documentation, invoices, site coordination, and project delivery.</p>
+      <p>I combine this engineering experience with hands-on projects in data analytics, business intelligence, and software development. I am particularly interested in connecting procurement and supply-chain processes with ERP systems, reliable data, and clear performance reporting.</p>
+      <h3>What I Bring</h3>
+      <ul>
+        <li><strong>Engineering operations:</strong> civil quantities, FTTH/fiber-optic activities, as-built records, technical documentation, and invoice workflows.</li>
+        <li><strong>Procurement &amp; SCM:</strong> purchasing workflows, supplier and PO processes, material planning concepts, inventory, and procurement reporting.</li>
+        <li><strong>Data &amp; BI:</strong> data cleaning, validation, relational modeling, SQL, DAX, Power Query, Excel, and Power BI dashboards.</li>
+        <li><strong>ERP &amp; digital systems:</strong> Odoo, ERPNext, and Oracle Fusion SCM learning across procurement, inventory, and business operations.</li>
+        <li><strong>Software:</strong> C#, .NET, ASP.NET Core, Entity Framework, LINQ, and Python-based projects.</li>
+      </ul>
+      <p><strong>My approach:</strong> understand the process first, structure the data, validate assumptions, and then build a solution that people can use.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Professional Overview
-
-I am a Civil Engineer with **5+ years of experience in fiber-optic and FTTH project environments**, with a background in technical-office and engineering operations. I combine that operational perspective with hands-on work in data analytics, business intelligence, and software development.
-
-My professional interests focus on improving how projects and businesses manage information, purchasing activities, operational performance, and decisions.
-
-- **Engineering & Project Operations:** FTTH/fiber-optic works, civil-work quantities, technical documentation, invoice records, as-built documentation, and coordination across project teams.
-- **Procurement & Supply Chain:** purchasing processes, supplier and purchase-order workflows, material requirements, inventory concepts, and procurement reporting.
-- **Data Analytics & BI:** data cleaning, validation, modeling, DAX, Power Query, Excel, SQL Server, and Power BI dashboards.
-- **ERP & Business Systems:** developing functional knowledge of Odoo, ERPNext, and Oracle Fusion SCM concepts across procurement, inventory, and business operations.
-- **Software Development:** C#, .NET, ASP.NET Core, Entity Framework, LINQ, SQL Server, and Python project work.
-
-I aim to bridge **operational knowledge and digital tools**—turning business requirements into structured workflows, trustworthy data, and useful reporting.
-
-## Featured Projects
+## Featured Portfolio
 
 ### 1. Olist E-Commerce Analytics
 **SQL Server · Python · Power Query · Excel · Power BI**
 
-An end-to-end analytics portfolio project based on the Brazilian E-Commerce Public Dataset by Olist. The repository includes source data, a Python cleaning and EDA notebook, SQL analysis, an ERD, Excel dashboards, a Power BI report, and project documentation.
+An end-to-end analytics project based on the Brazilian E-Commerce Public Dataset by Olist. The repository includes source data, a Python cleaning and EDA notebook, SQL analysis, an ERD, Excel dashboards, a Power BI report, and final documentation in English and Arabic.
 
-**What the project demonstrates**
-- Data quality checks and preparation across customers, orders, products, sellers, payments, reviews, and geolocation.
-- SQL-based business questions and relational data analysis.
-- Data modeling and ERD documentation.
-- Financial reconciliation checks and investigation of differences between order-item/freight and payment totals.
-- Interactive reporting deliverables in Excel and Power BI.
+<p align="center">
+  <strong>Selected analysis visuals</strong><br/>
+  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/monthly_order_trend.png" alt="Olist monthly order trend" width="48%"/>
+  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/top_categories_by_revenue.png" alt="Olist top categories by revenue" width="48%"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/delivery_delay_distribution.png" alt="Olist delivery delay distribution" width="48%"/>
+  <img src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/4.%20ERD%20and%20relational%20schema/Olist%20E-Commerce%20ERD%20%E2%80%94%20Presentation-Ready.png" alt="Olist relational entity relationship diagram" width="48%"/>
+</p>
 
-**Deliverables:** [Python notebook](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/2.%20Python%20notebook%20(.ipynb)%20containing%20data%20cleaning%20and%20EDA) · [SQL scripts](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/3.%20SQL%20file%20(.sql)%20containing%20database%20design%20and%20analytical%20queries) · [ERD](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/4.%20ERD%20and%20relational%20schema) · [Excel dashboard](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/5.%20Excel%20workbook%20(.xlsx)%20containing%20two%20interactive%20dashboards) · [Power BI report](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/6.%20Power%20BI%20report%20(.pbix)%20containing%20two%20interactive%20dashboards) · [Final PDF report](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/blob/main/7.%20PDF%20report%20summarizing%20insights%20and%20recommendations/Olist_Final_Project.pdf)
+**Key project work**
+- Data preparation and quality checks across customers, orders, products, sellers, payments, reviews, and geolocation.
+- SQL-based business questions and relational analysis.
+- ERD and data-model documentation.
+- Financial reconciliation checks and investigation of differences.
+- Reporting deliverables in Excel and Power BI.
 
-[**Explore the Olist repository →**](https://github.com/EMAD7461/Olist-E-Commerce-Analytics)
+<details>
+  <summary><strong>Explore Olist deliverables</strong></summary>
+
+  - [Python cleaning and EDA notebook](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA)
+  - [SQL Server scripts](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/3.%20SQL%20file%20%28.sql%29%20containing%20database%20design%20and%20analytical%20queries)
+  - [ERD and relational schema](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/4.%20ERD%20and%20relational%20schema)
+  - [Excel dashboard workbook](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/5.%20Excel%20workbook%20%28.xlsx%29%20containing%20two%20interactive%20dashboards)
+  - [Power BI report](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/6.%20Power%20BI%20report%20%28.pbix%29%20containing%20two%20interactive%20dashboards)
+  - [English final report](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/blob/main/7.%20PDF%20report%20summarizing%20insights%20and%20recommendations/Olist_Final_Project.pdf)
+  - [Arabic final report](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/blob/main/7.%20PDF%20report%20summarizing%20insights%20and%20recommendations/Olist_Final_Project_Report_AR.pdf)
+  - [Project presentation](https://github.com/EMAD7461/Olist-E-Commerce-Analytics/tree/main/8.%20PowerPoint%20presentation%20%28.pptx%29%20covering%20the%20complete%20project)
+
+</details>
+
+[**Open Olist repository →**](https://github.com/EMAD7461/Olist-E-Commerce-Analytics)
 
 ### 2. Carrefour Sales Analytics
 **Power BI · DAX · Power Query · PBIP**
 
-A multi-page Power BI portfolio project featuring an editable PBIP report, semantic model, native visuals, slicers, theme assets, source CSV files, and a PBIX copy.
+A multi-page Power BI project with an editable PBIP report, semantic model, native visuals, slicers, theme assets, source CSV files, and a PBIX copy.
 
-**Report pages**
 - Home and Sales Overview
 - Product & Category Analysis
 - Customer Analysis
 - Regional & Profitability Analysis
 
-**Implementation note:** the current semantic model uses local file paths for its CSV sources. Update the Power Query File.Contents paths after cloning the repository. The profitability view is an estimate based on matched product unit costs, not company net profit. This is an independent portfolio project and is not presented as commissioned or endorsed by Carrefour.
+<details>
+  <summary><strong>Technical notes and how to run it</strong></summary>
 
-[**Explore the Carrefour project →**](https://github.com/EMAD7461/Carrefour_Sales_Analytics_4Page)
+  The current semantic model points to local CSV file paths from the development environment. After cloning, update the Power Query `File.Contents` paths for all eight source tables, apply changes, and refresh. The profitability view is an estimate based on matched product unit costs, not company net profit.
+
+  This is an independent portfolio project and is not presented as commissioned by or endorsed by Carrefour.
+
+</details>
+
+[**Open Carrefour repository →**](https://github.com/EMAD7461/Carrefour_Sales_Analytics_4Page)
 
 ### 3. Hospital Management System
 **C# · ASP.NET Core · .NET 8 · Entity Framework Core · SQL Server**
 
-A team graduation project from the Digital Egypt Pioneers Initiative (DEPI), .NET Web Developer track. The repository includes an ASP.NET Core web application structure, Entity Framework Core/SQL Server package references, database script, ERD, project documentation, and presentation.
+A team graduation project from the Digital Egypt Pioneers Initiative (DEPI), .NET Web Developer track. The repository includes the web application structure, database assets, ERD, documentation, and presentation.
 
-[**Explore the Hospital Management project →**](https://github.com/EMAD7461/Hospital-Managment-System)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EMAD7461/Hospital-Managment-System/master/ERD.jpeg" alt="Hospital Management System entity relationship diagram" width="72%"/>
+</p>
+
+[**Open Hospital Management repository →**](https://github.com/EMAD7461/Hospital-Managment-System)
 
 ### 4. Flight Reservation Application
 **Python · Tkinter · SQLite**
 
-A desktop application for creating and managing flight reservations, with booking, viewing, editing, and deleting workflows supported by a local SQLite database.
+A desktop application for creating and managing flight reservations, with booking, viewing, editing, and deleting workflows backed by a local SQLite database.
 
-[**Explore the Flight Reservation project →**](https://github.com/EMAD7461/flight-reservation-app)
+[**Open Flight Reservation repository →**](https://github.com/EMAD7461/flight-reservation-app)
 
 ### 5. Heart Disease Machine Learning Pipeline
 **Python · Pandas · Scikit-learn · PCA · Streamlit**
 
 A machine-learning project documenting preprocessing, feature selection, PCA, supervised and unsupervised models, hyperparameter tuning, model export, and an optional Streamlit interface.
 
-[**Explore the Heart Disease ML project →**](https://github.com/EMAD7461/HeartDiseaseML)
+[**Open Heart Disease ML repository →**](https://github.com/EMAD7461/HeartDiseaseML)
 
-## Applied Data Analytics Experience
+---
 
-**Discover20 — Data Analyst | ALX Data Analyst Internship (Oct–Dec 2025)**
+## Work Experience & Professional Development
 
-Worked with survey data collected through Google Forms, using Power Query and Excel for cleaning, transformation, and standardization, then built a Power BI dashboard to communicate user preferences and product insights. The work included multi-choice response analysis and an Arabic RTL dashboard design.
+<details>
+  <summary><strong>Discover20 — Data Analyst | ALX Data Analyst Internship</strong></summary>
 
-[**Professional experience and details on LinkedIn →**](https://www.linkedin.com/in/mohmedemad/)
+  Worked with survey data collected through Google Forms, using Power Query and Excel for data cleaning, transformation, and standardization. Built a Power BI dashboard to communicate user preferences and product insights, including multi-choice response analysis and an Arabic RTL dashboard design.
 
-## Selected Credentials
+</details>
 
-- **Generative AI Overview for Project Managers** — Project Management Institute (PMI), Dec 2024.
-- **AI for Beginners** — HP LIFE, Dec 2024.
-- **Team Leader Recognition** — Digital Egypt Pioneers Initiative (DEPI), Apr 2024.
-- **Design Thinking** — HP LIFE, Apr 2023.
-- **Presenting Data** — HP LIFE, Apr 2023.
-- **The Digital Marketing Challenger Track** — Ministry of Communications and Information Technology (MCIT), Egypt, Jan 2023.
+<details>
+  <summary><strong>FTTH / Fiber-Optic Engineering & Technical Office</strong></summary>
 
-For credential details and verification links, see the [Licenses & Certifications section on LinkedIn](https://www.linkedin.com/in/mohmedemad/).
+  More than five years of experience in fiber-optic project environments, including civil-work quantities, microduct and cable activities, ODF/cabinet and manhole documentation, as-built records, measurement sheets, invoice attachments, and coordination between project stakeholders.
 
-## Education
+</details>
 
-**AL-SaLaM Higher Institute for Engineering & Technology**  
-Civil Engineering · 2013–2018
+<details>
+  <summary><strong>Selected Credentials</strong></summary>
 
-## Technology & Tools
+  - **Generative AI Overview for Project Managers** — Project Management Institute (PMI), Dec 2024.
+  - **AI for Beginners** — HP LIFE, Dec 2024.
+  - **Team Leader Recognition** — Digital Egypt Pioneers Initiative (DEPI), Apr 2024.
+  - **Design Thinking** — HP LIFE, Apr 2023.
+  - **Presenting Data** — HP LIFE, Apr 2023.
+  - **The Digital Marketing Challenger Track** — MCIT Egypt, Jan 2023.
 
-**Data Analytics & Reporting**
+  See the [LinkedIn profile](https://www.linkedin.com/in/mohmedemad/) for credential details and verification links.
+
+</details>
+
+---
+
+## How I Approach Data & Business Projects
+
+The workflow below represents how I structure analytical and digital projects, illustrated by the Olist work.
+
+```mermaid
+flowchart TD
+    A[Business Question] --> B[Source Data]
+    B --> C[Data Cleaning & Validation]
+    C --> D[SQL and Data Modeling]
+    D --> E[Analysis and KPI Design]
+    E --> F[Power BI / Excel Reporting]
+    F --> G[Insights and Recommendations]
+    G --> H[Document and Communicate]
+```
+
+## Technology Stack
+
+**Analytics & Reporting**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=111111)
 ![DAX](https://img.shields.io/badge/DAX-Analytics-6B4EFF?style=flat)
@@ -141,21 +215,17 @@ Civil Engineering · 2013–2018
 ## GitHub Activity
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EMAD7461&show_icons=true&hide_border=true&theme=transparent&rank_icon=github)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EMAD7461&layout=compact&hide_border=true&theme=transparent)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=EMAD7461&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub contribution statistics" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EMAD7461&layout=compact&hide_border=true&theme=transparent" alt="Most used programming languages" />
 </div>
-
----
 
 <div align="center">
 
-**Open to sharing ideas and collaborating on projects involving engineering operations, procurement, ERP, data analytics, and software solutions.**
+**Open to collaboration on engineering operations, procurement, ERP, analytics, and software projects.**
 
 [LinkedIn](https://www.linkedin.com/in/mohmedemad/) · [GitHub](https://github.com/EMAD7461) · [Email](mailto:emad7461@gmail.com)
 
 </div>
 
-<sub>Skills reflect a combination of professional experience, published project work, and ongoing learning. Repository READMEs describe project scope, assumptions, and limitations.</sub>
+<sub>Skills reflect a combination of professional experience, published project work, and ongoing learning. Project READMEs describe scope, assumptions, requirements, and limitations.</sub>
