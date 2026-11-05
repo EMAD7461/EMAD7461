@@ -1,16 +1,16 @@
 # Mohamed Emad — Credentials Portfolio
 
-An interactive, searchable portfolio of professional learning across data analytics, AI and machine learning, cybersecurity, cloud, software development, and business.
+A scrollable visual portfolio of 69 certificates and learning records across eight professional areas. Each preview links directly to the original credential file.
 
-**[Open the interactive dashboard](./index.html)**
+**[Open the scrollable certificate gallery](./GALLERY.md)**
 
 ## Portfolio highlights
 
 - **69 certificate records** organized into eight learning areas. Bilingual and alternate certificate copies are retained.
-- Every PDF has a compact first-page image preview; open a card to inspect the artwork, browse adjacent credentials, or open the original file.
+- Every PDF has a compact first-page image preview. Select any certificate image to open the original file.
 - Data analytics and business intelligence form the largest learning area.
 - The collection includes courses, program certificates, and digital badges from Coursera/Google, DataCamp, IBM SkillsBuild, Securiti Education, Sprints, and other providers.
-- Coursera verification links are available directly from the dashboard where provided on the certificate.
+- Issuer verification details are retained in the collection data where available.
 
 ## Browse by area
 
