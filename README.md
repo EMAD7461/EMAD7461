@@ -51,12 +51,12 @@
 
 ## Featured Portfolio
 
-### Certificates & Credentials Gallery
+### Certificate Portfolio
 
 A visual collection of 69 certificates, badges, and program records across eight learning areas. The GitHub gallery is designed for scrolling, and every preview opens the original credential file.
 
 <p align="center">
-  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/certificates/previews/data-analytics/discover20-data-analysis-internship.jpg" alt="Discover20 Data Analysis Internship certificate preview" width="76%"/></a>
+  <a href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md"><img src="https://raw.githubusercontent.com/EMAD7461/EMAD7461/main/assets/certificate-portfolio-card.svg" alt="Certificate portfolio summary: 69 credentials across eight learning areas, with 55 document previews" width="100%"/></a>
 </p>
 
 [**Scroll through the certificate gallery →**](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md) · [Browse the organized certificate folders](https://github.com/EMAD7461/EMAD7461/tree/main/certificates)
