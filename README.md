@@ -53,9 +53,7 @@
 
 An interactive collection of 69 certificates, badges, and program records, organized across eight learning areas. The dashboard includes search, topic filters, collection insights, and direct links to each source document.
 
-[**Open the live credentials dashboard →**](https://emad7461.github.io/EMAD7461/)
-
-[Browse the certificate files and source code →](https://github.com/EMAD7461/EMAD7461/tree/main/certificates)
+[**Browse the certificate collection →**](https://github.com/EMAD7461/EMAD7461/tree/main/certificates) · [View the dashboard source](https://github.com/EMAD7461/EMAD7461/blob/main/certificates/index.html)
 ### 1. Olist E-Commerce Analytics
 **SQL Server · Python · Power Query · Excel · Power BI**
 
