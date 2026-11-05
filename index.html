@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d2b">
+  <meta name="description" content="Mohamed Emad's professional portfolio: engineering operations, data analytics, projects, and 69 credentials.">
+  <title>Mohamed Emad — Portfolio</title>
+  <style>
+    :root{--ink:#101d2b;--ink2:#192b3b;--paper:#f4f3ed;--white:#fff;--muted:#697581;--teal:#188f85;--mint:#a8e1d7;--blue:#8eb8e7;--line:#dce1df;--gold:#c58a54;--card:#fff;--shadow:0 22px 60px rgba(16,29,43,.11);--radius:22px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Segoe UI",Arial,sans-serif;line-height:1.6}
+    a{color:inherit}
+    img{max-width:100%;display:block}
+    button,input,select{font:inherit}
+    .shell{width:min(1160px,calc(100% - 40px));margin:auto}
+    .site-header{position:sticky;top:0;z-index:20;background:rgba(16,29,43,.94);backdrop-filter:blur(14px);color:#f8fafc;border-bottom:1px solid rgba(255,255,255,.09)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font-size:14px;font-weight:800;letter-spacing:.12em;text-decoration:none;white-space:nowrap}
+    .brand span{color:#65d4c1}
+    .nav-links{display:flex;align-items:center;gap:25px}
+    .nav-links a{text-decoration:none;color:#d2dbe1;font-size:13px;font-weight:650}
+    .nav-links a:hover{color:#65d4c1}
+    .nav-actions{display:flex;align-items:center;gap:10px}
+    .theme-toggle{border:1px solid rgba(255,255,255,.22);color:#eaf1f5;background:transparent;border-radius:999px;padding:8px 12px;cursor:pointer;font-size:12px}
+    .hero{overflow:hidden;background:linear-gradient(135deg,#101d2b 0%,#143b4a 62%,#0b5b5b 100%);color:#f8fafc;position:relative}
+    .hero:before{content:"";position:absolute;inset:0;background-image:url("assets/portfolio-banner.svg");background-size:cover;background-position:center;opacity:.18;mix-blend-mode:screen}
+    .hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-180px;top:-230px;background:radial-gradient(circle,rgba(45,212,191,.22),transparent 68%)}
+    .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center;padding:82px 0 76px}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;color:#abe9df;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.19em}
+    .eyebrow:before{content:"";width:24px;height:1px;background:#54c7b6}
+    h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-.055em;margin:22px 0 22px;max-width:760px}
+    .hero-copy{font-size:17px;max-width:690px;color:#d5e0e5;margin:0}
+    .hero-copy strong{color:#fff}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:13px 19px;text-decoration:none;font-size:13px;font-weight:800;transition:transform .18s,background .18s}
+    .button:hover{transform:translateY(-2px)}
+    .button-primary{background:#65d4c1;color:#08202a}
+    .button-outline{border:1px solid rgba(255,255,255,.32);color:#f8fafc;background:rgba(255,255,255,.04)}
+    .hero-card{padding:13px;border-radius:26px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.17);box-shadow:0 28px 80px rgba(0,0,0,.22);transform:rotate(1.8deg)}
+    .hero-card img{width:100%;height:225px;object-fit:cover;border-radius:17px}
+    .hero-card-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 7px 5px}
+    .hero-card-bottom strong{font-size:13px}
+    .hero-card-bottom span{font-size:11px;color:#b9c8d1}
+    .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:38px;max-width:590px}
+    .hero-stat{border-left:1px solid rgba(255,255,255,.24);padding-left:14px}
+    .hero-stat strong{display:block;font-size:25px;line-height:1.1;letter-spacing:-.04em}
+    .hero-stat span{font-size:10px;color:#b9c8d1;text-transform:uppercase;letter-spacing:.09em}
+    section{padding:82px 0}
+    .section-kicker{color:var(--teal);font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.18em}
+    .section-heading{font-size:clamp(29px,4vw,43px);letter-spacing:-.045em;line-height:1.1;margin:10px 0 14px}
+    .section-intro{color:var(--muted);max-width:700px;margin:0;font-size:15px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:34px}
+    .section-head .section-intro{max-width:440px}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:27px;box-shadow:0 7px 25px rgba(16,29,43,.035)}
+    .panel h3{margin:0 0 12px;font-size:19px;letter-spacing:-.02em}
+    .panel p{margin:0;color:#56636f;font-size:14px}
+    .focus-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+    .focus-list span,.tech span{display:inline-flex;background:#eef5f2;color:#23574f;border:1px solid #d8eae4;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700}
+    .experience{background:#e9ede8}
+    .timeline{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .experience-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:27px 27px 25px;min-height:285px}
+    .experience-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:19px}
+    .experience-meta span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--teal);font-weight:800}
+    .experience-meta b{font-size:11px;color:#697581;background:#f2f3f0;padding:7px 10px;border-radius:999px}
+    .experience-card h3{font-size:21px;line-height:1.22;letter-spacing:-.03em;margin:0 0 8px}
+    .experience-card .org{font-size:13px;color:#7a6250;font-weight:750;margin-bottom:13px}
+    .experience-card p{font-size:13px;color:#596671;margin:0}
+    .experience-card ul{padding-left:18px;margin:16px 0 0;color:#596671;font-size:12px}
+    .experience-card li{padding:3px 0}
+    .projects{background:var(--paper)}
+    .project-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+    .project-card{grid-column:span 2;overflow:hidden;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);box-shadow:0 8px 30px rgba(16,29,43,.04);display:flex;flex-direction:column;min-width:0}
+    .project-card.featured{grid-column:span 3}
+    .project-cover{position:relative;height:205px;background:#102234;overflow:hidden;display:flex;align-items:center;justify-content:center;text-decoration:none}
+    .project-cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+    .project-card:hover .project-cover img{transform:scale(1.035)}
+    .project-card:nth-child(2) .project-cover img{object-fit:cover}
+    .project-card:nth-child(3) .project-cover img{object-fit:contain;background:#edf3f4;padding:13px}
+    .project-card:nth-child(4) .project-cover img{object-fit:contain;padding:35px;background:linear-gradient(135deg,#0d2538,#164e58)}
+    .cover-tag{position:absolute;left:15px;top:15px;background:rgba(9,22,34,.82);color:#dff8f3;border:1px solid rgba(255,255,255,.17);border-radius:999px;padding:6px 10px;font-size:9px;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+    .project-body{padding:22px 22px 20px;display:flex;flex-direction:column;flex:1}
+    .project-number{font-size:10px;font-weight:850;letter-spacing:.14em;color:var(--teal);text-transform:uppercase}
+    .project-body h3{font-size:20px;line-height:1.2;letter-spacing:-.025em;margin:8px 0 10px}
+    .project-body p{font-size:12px;color:#65717b;margin:0 0 16px}
+    .tech{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:19px}
+    .tech span{padding:5px 8px;font-size:9px;background:#f2f5f4}
+    .project-link{margin-top:auto;display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:#126f68;font-size:12px;font-weight:850}
+    .project-link:hover{color:#0b4a46}
+    .project-note{margin-top:25px;padding:14px 17px;border-left:3px solid var(--gold);background:#f6efe6;color:#705941;border-radius:0 12px 12px 0;font-size:11px}
+    .credentials{background:#111e2b;color:#f8fafc}
+    .credentials .section-intro{color:#bac7d0}
+    .credentials .section-kicker{color:#65d4c1}
+    .credential-tools{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 14px}
+    .credential-tools input,.credential-tools select{min-height:43px;border:1px solid rgba(255,255,255,.18);background:#182a39;color:#f8fafc;border-radius:12px;padding:0 13px;outline:none}
+    .credential-tools input{flex:1;min-width:220px}
+    .credential-tools select{min-width:225px}
+    .credential-tools input:focus,.credential-tools select:focus{border-color:#65d4c1;box-shadow:0 0 0 3px rgba(101,212,193,.14)}
+    .credential-count{font-size:11px;color:#a9b9c4;margin:0 0 18px}
+    .credential-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+    .credential-card{appearance:none;text-align:left;cursor:pointer;background:#192b3a;border:1px solid rgba(255,255,255,.10);padding:0;border-radius:15px;overflow:hidden;color:inherit;transition:transform .18s,border-color .18s}
+    .credential-card:hover{transform:translateY(-3px);border-color:rgba(101,212,193,.6)}
+    .credential-image{height:150px;background:#e8e9e5;display:block;position:relative;overflow:hidden}
+    .credential-image img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+    .credential-card:hover .credential-image img{transform:scale(1.04)}
+    .credential-format{position:absolute;left:9px;top:9px;background:rgba(16,29,43,.88);color:#e9f6f3;border-radius:999px;padding:4px 8px;font-size:9px;font-weight:800}
+    .credential-text{display:block;padding:12px}
+    .credential-title{display:block;font-size:12px;font-weight:750;line-height:1.35;min-height:32px}
+    .credential-issuer{display:block;color:#aebbc4;font-size:10px;margin-top:6px}
+    .empty-state{border:1px dashed rgba(255,255,255,.24);border-radius:15px;padding:30px;text-align:center;color:#c1cbd2;grid-column:1/-1}
+    .gallery-cta{display:inline-flex;margin-top:24px;text-decoration:none;color:#071c25;background:#65d4c1;font-size:12px;font-weight:850;padding:11px 15px;border-radius:999px}
+    .contact{background:#e9ede8}
+    .contact-card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .contact-card h2{font-size:28px;letter-spacing:-.04em;margin:0 0 8px}
+    .contact-card p{color:#66727c;font-size:13px;margin:0}
+    .contact-links{display:flex;flex-wrap:wrap;gap:9px}
+    .contact-links a{border:1px solid #d8dfdc;border-radius:999px;padding:10px 14px;text-decoration:none;font-size:11px;font-weight:800}
+    .contact-links a:hover{border-color:var(--teal);color:var(--teal)}
+    footer{background:#101d2b;color:#aebbc4;padding:25px 0;font-size:11px}
+    .footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    dialog{width:min(900px,calc(100% - 30px));max-height:92vh;padding:0;border:1px solid rgba(255,255,255,.2);border-radius:20px;background:#111e2b;color:#f8fafc;box-shadow:0 35px 100px rgba(0,0,0,.55)}
+    dialog::backdrop{background:rgba(3,10,16,.78);backdrop-filter:blur(5px)}
+    .dialog-head{display:flex;align-items:start;justify-content:space-between;gap:20px;padding:21px 23px}
+    .dialog-head h3{margin:0 0 4px;font-size:20px}
+    .dialog-head p{margin:0;color:#aebbc4;font-size:12px}
+    .dialog-close{border:1px solid rgba(255,255,255,.2);border-radius:999px;background:transparent;color:#fff;width:36px;height:36px;cursor:pointer}
+    .dialog-image{max-height:62vh;width:100%;object-fit:contain;background:#dfe4e1}
+    .dialog-actions{padding:17px 22px;display:flex;gap:10px;flex-wrap:wrap}
+    .dialog-actions a{background:#65d4c1;color:#09202a;text-decoration:none;border-radius:999px;padding:9px 13px;font-size:11px;font-weight:850}
+    .dialog-actions a.secondary{background:#203548;color:#eaf1f5}
+    body[data-theme="light"] .credentials{background:#eef1ec;color:#101d2b}
+    body[data-theme="light"] .credentials .section-intro,body[data-theme="light"] .credential-count{color:#64717b}
+    body[data-theme="light"] .credential-tools input,body[data-theme="light"] .credential-tools select{background:#fff;color:#101d2b;border-color:#d8dfdc}
+    body[data-theme="light"] .credential-card{background:#fff;color:#101d2b;border-color:#dce1df}
+    body[data-theme="light"] .credential-issuer{color:#697581}
+    body[data-theme="light"] .credential-format{background:rgba(16,29,43,.86)}
+    body[data-theme="light"] .empty-state{color:#66727c;border-color:#b8c3be}
+    @media(max-width:900px){.hero-inner{grid-template-columns:1fr .72fr;gap:28px}.project-grid{grid-template-columns:repeat(2,1fr)}.project-card,.project-card.featured{grid-column:span 1}.credential-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.nav-links{gap:14px}}
+    @media(max-width:650px){.shell{width:min(100% - 28px,1160px)}.nav{height:64px}.nav-links{display:none}.hero-inner{grid-template-columns:1fr;padding:56px 0 48px}.hero-card{max-width:460px;transform:none}.hero-card img{height:175px}h1{font-size:45px}.hero-copy{font-size:15px}.hero-stats{margin-top:29px}.hero-stat strong{font-size:21px}.hero-stat span{font-size:8px}.hero-actions .button{flex:1}.section-head{display:block}.section-head .section-intro{margin-top:13px}.about-grid,.timeline{grid-template-columns:1fr}.experience-card{min-height:0}.project-grid{grid-template-columns:1fr}.project-card,.project-card.featured{grid-column:span 1}.project-cover{height:195px}.credential-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.credential-image{height:120px}.credential-text{padding:10px}.credential-title{font-size:11px}.credential-tools input,.credential-tools select{min-width:100%;width:100%}.contact-card{display:block;padding:25px}.contact-links{margin-top:21px}.contact-links a{padding:9px 11px}.footer-inner{display:block}.footer-inner span{display:block;margin-top:7px}section{padding:62px 0}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="#top">MOHAMED EMAD<span>.</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">Profile</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#credentials">Credentials</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="button button-primary" style="padding:9px 13px;font-size:11px" href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md">GitHub archive ↗</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">◐ Theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="padding:0">
+      <div class="shell hero-inner">
+        <div>
+          <span class="eyebrow">Engineering · Data · Business Systems</span>
+          <h1>Turning complex work into clear outcomes.</h1>
+          <p class="hero-copy">I’m <strong>Mohamed Emad</strong>, a Civil Engineer with 5+ years in fiber-optic project environments. I connect field operations, procurement, data analytics, and software systems to make work more measurable and useful.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span>↓</span></a>
+            <a class="button button-outline" href="#credentials">Browse credentials <span>↗</span></a>
+          </div>
+          <div class="hero-stats" aria-label="Portfolio highlights">
+            <div class="hero-stat"><strong>5+</strong><span>Years in engineering</span></div>
+            <div class="hero-stat"><strong>5</strong><span>Selected projects</span></div>
+            <div class="hero-stat"><strong>69</strong><span>Credentials & records</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="assets/portfolio-banner.svg" alt="Portfolio visual: engineering, data and business systems">
+          <div class="hero-card-bottom"><strong>A practical, cross-functional portfolio</strong><span>Egypt · Open to collaboration</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="shell">
+        <div class="section-head">
+          <div><span class="section-kicker">Profile</span><h2 class="section-heading">Engineering context.<br>Analytical perspective.</h2></div>
+          <p class="section-intro">I bring operational experience from infrastructure projects together with hands-on analytics, ERP learning, and application development.</p>
+        </div>
+        <div class="about-grid">
+          <article class="panel">
+            <h3>How I work</h3>
+            <p>I start by understanding the process, structure and validate the data, then build a practical solution people can use. My engineering background keeps the analysis connected to quantities, documentation, coordination, and delivery.</p>
+            <div class="focus-list"><span>Procurement & SCM</span><span>Project Operations</span><span>Data Analytics & BI</span><span>ERP Systems</span><span>.NET Development</span></div>
+          </article>
+          <article class="panel">
+            <h3>Tools I use and study</h3>
+            <p>Power BI · DAX · Power Query · Excel · SQL Server · Python · C# · ASP.NET Core · Odoo · ERPNext · Oracle Fusion SCM · AutoCAD</p>
+            <div class="focus-list"><span>Data preparation</span><span>Relational modeling</span><span>Reporting</span><span>Process improvement</span><span>Technical documentation</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="shell">
+        <div class="section-head">
+          <div><span class="section-kicker">Experience</span><h2 class="section-heading">From field operations to data insight.</h2></div>
+          <p class="section-intro">A blend of project delivery, technical-office work, and structured analytical practice.</p>
+        </div>
+        <div class="timeline">
+          <article class="experience-card">
+            <div class="experience-meta"><span>Engineering operations</span><b>5+ years</b></div>
+            <h3>FTTH / Fiber-Optic Engineering & Technical Office</h3>
+            <div class="org">Infrastructure project environments</div>
+            <p>Supported work planning and project controls through detailed quantities, records, and coordination.</p>
+            <ul><li>Civil-work quantities, microduct and cable activities</li><li>ODF, cabinet, manhole, and as-built documentation</li><li>Measurement sheets, invoice attachments, and stakeholder coordination</li></ul>
+          </article>
+          <article class="experience-card">
+            <div class="experience-meta"><span>Analytics internship</span><b>ALX Data Analyst</b></div>
+            <h3>Data Analyst Intern</h3>
+            <div class="org">Discover20</div>
+            <p>Analyzed survey data collected through Google Forms and turned it into clear product and user-preference reporting.</p>
+            <ul><li>Cleaned, transformed, and standardized data with Power Query and Excel</li><li>Built a Power BI dashboard for multi-choice response analysis</li><li>Designed an Arabic RTL dashboard experience</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="shell">
+        <div class="section-head">
+          <div><span class="section-kicker">Selected work</span><h2 class="section-heading">Projects with real working detail.</h2></div>
+          <p class="section-intro">Analytics, business intelligence, software, and machine-learning work. Each project card links to its source repository.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <a class="project-cover" href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics" aria-label="Open Olist E-Commerce Analytics project">
+              <img loading="lazy" src="https://raw.githubusercontent.com/EMAD7461/Olist-E-Commerce-Analytics/main/2.%20Python%20notebook%20%28.ipynb%29%20containing%20data%20cleaning%20and%20EDA/olist_python_outputs/figures/monthly_order_trend.png" alt="Olist monthly order trend analysis chart">
+              <span class="cover-tag">01 · Analytics case study</span>
+            </a>
+            <div class="project-body"><span class="project-number">End-to-end analytics</span><h3>Olist E-Commerce Analytics</h3><p>Analyzed Brazil’s public e-commerce dataset, from cleaning and validation through SQL analysis, relational modeling, reporting, and recommendations.</p><div class="tech"><span>SQL Server</span><span>Python</span><span>Power BI</span><span>Excel</span></div><a class="project-link" href="https://github.com/EMAD7461/Olist-E-Commerce-Analytics">Explore project repository ↗</a></div>
+          </article>
+
+          <article class="project-card featured">
+            <a class="project-cover" href="https://github.com/EMAD7461/Carrefour_Sales_Analytics_4Page" aria-label="Open Carrefour Sales Analytics project">
+              <img loading="lazy" src="https://raw.githubusercontent.com/EMAD7461/Carrefour_Sales_Analytics_4Page/main/Carrefour%20Sales%20Analytics.Report/StaticResources/RegisteredResources/Carrefour_Home_Light_Stars_MoneyFlow.svg" alt="Decorative visual from the Carrefour sales analytics report assets">
+              <span class="cover-tag">02 · Business intelligence</span>
+            </a>
+            <div class="project-body"><span class="project-number">Multi-page Power BI report</span><h3>Carrefour Sales Analytics</h3><p>Built an editable PBIP report with a semantic model, slicers, source tables, and views for sales, products, customers, regions, and estimated profitability.</p><div class="tech"><span>Power BI</span><span>DAX</span><span>Power Query</span><span>PBIP</span></div><a class="project-link" href="https://github.com/EMAD7461/Carrefour_Sales_Analytics_4Page">Explore project repository ↗</a></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-cover" href="https://github.com/EMAD7461/Hospital-Managment-System" aria-label="Open Hospital Management System project">
+              <img loading="lazy" src="https://raw.githubusercontent.com/EMAD7461/Hospital-Managment-System/master/ERD.jpeg" alt="Hospital Management System entity relationship diagram">
+              <span class="cover-tag">03 · Application development</span>
+            </a>
+            <div class="project-body"><span class="project-number">Team graduation project</span><h3>Hospital Management System</h3><p>A DEPI team project for a hospital application, with an ASP.NET Core structure, database assets, ERD, documentation, and presentation.</p><div class="tech"><span>C#</span><span>.NET 8</span><span>Entity Framework</span><span>SQL Server</span></div><a class="project-link" href="https://github.com/EMAD7461/Hospital-Managment-System">Explore project repository ↗</a></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-cover" href="https://github.com/EMAD7461/flight-reservation-app" aria-label="Open Flight Reservation application project">
+              <img loading="lazy" src="https://raw.githubusercontent.com/EMAD7461/flight-reservation-app/main/logo.png" alt="Flight Reservation application logo">
+              <span class="cover-tag">04 · Desktop application</span>
+            </a>
+            <div class="project-body"><span class="project-number">Reservation workflows</span><h3>Flight Reservation App</h3><p>A desktop application for booking and managing flights, with create, view, edit, and delete flows backed by a local SQLite database.</p><div class="tech"><span>Python</span><span>Tkinter</span><span>SQLite</span></div><a class="project-link" href="https://github.com/EMAD7461/flight-reservation-app">Explore project repository ↗</a></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-cover" href="https://github.com/EMAD7461/HeartDiseaseML" aria-label="Open Heart Disease Machine Learning Pipeline project">
+              <svg viewBox="0 0 720 420" role="img" aria-label="Illustrative model evaluation chart for a machine-learning portfolio project">
+                <defs><linearGradient id="mlbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c30"/><stop offset="1" stop-color="#194b54"/></linearGradient><linearGradient id="mlLine"><stop stop-color="#3dd6bd"/><stop offset="1" stop-color="#77aefa"/></linearGradient></defs>
+                <rect width="720" height="420" fill="url(#mlbg)"/><g stroke="#b4c7d5" stroke-opacity=".15"><path d="M90 70v260h540"/><path d="M90 275h540M90 210h540M90 145h540"/></g>
+                <path d="M112 302c63-36 78-8 126-58s76-6 123-66 72-8 113-62 69-5 131-52" fill="none" stroke="url(#mlLine)" stroke-width="7" stroke-linecap="round"/>
+                <g fill="#4ed5c1" stroke="#e1fff8" stroke-width="3"><circle cx="112" cy="302" r="8"/><circle cx="238" cy="244" r="8"/><circle cx="361" cy="178" r="8"/><circle cx="474" cy="116" r="8"/><circle cx="605" cy="64" r="8"/></g>
+                <text x="92" y="52" fill="#f7fbff" font-size="21" font-family="Arial" font-weight="700">MODEL PIPELINE</text><text x="440" y="370" fill="#c3d5df" font-size="16" font-family="Arial">Feature selection · evaluation</text>
+              </svg>
+              <span class="cover-tag">05 · Machine learning</span>
+            </a>
+            <div class="project-body"><span class="project-number">Classification pipeline</span><h3>Heart Disease ML Pipeline</h3><p>Documented preprocessing, feature selection, PCA, supervised and unsupervised models, tuning, model export, and an optional Streamlit interface.</p><div class="tech"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div><a class="project-link" href="https://github.com/EMAD7461/HeartDiseaseML">Explore project repository ↗</a></div>
+          </article>
+        </div>
+        <div class="project-note">The Carrefour project is an independent portfolio project and is not presented as commissioned by or endorsed by Carrefour. Estimated profitability is based on matched product unit costs.</div>
+      </div>
+    </section>
+
+    <section class="credentials" id="credentials">
+      <div class="shell">
+        <div class="section-head">
+          <div><span class="section-kicker">Learning archive</span><h2 class="section-heading">Credentials, ready to explore.</h2></div>
+          <p class="section-intro">Search and filter certificates across analytics, AI, cybersecurity, cloud, business, design, and software. Select any image for a larger preview and the original file.</p>
+        </div>
+        <div class="credential-tools">
+          <input type="search" id="credentialSearch" placeholder="Search titles, providers, or skills…" aria-label="Search credentials">
+          <select id="credentialCategory" aria-label="Filter credentials by learning area"><option value="">All learning areas</option></select>
+        </div>
+        <p class="credential-count" id="credentialCount" aria-live="polite">Loading credentials…</p>
+        <div class="credential-grid" id="credentialGrid"></div>
+        <a class="gallery-cta" href="https://github.com/EMAD7461/EMAD7461/blob/main/certificates/GALLERY.md">Open the GitHub certificate archive ↗</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="shell contact-card">
+        <div><span class="section-kicker">Let’s connect</span><h2>Interested in practical, useful work?</h2><p>Open to collaboration across engineering operations, procurement, ERP, analytics, and software projects.</p></div>
+        <div class="contact-links"><a href="https://www.linkedin.com/in/mohmedemad/">LinkedIn</a><a href="mailto:emad7461@gmail.com">Email me</a><a href="https://github.com/EMAD7461">GitHub</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-inner"><strong>MOHAMED EMAD · PORTFOLIO</strong><span>Engineering context · data-led thinking · practical systems</span><span>© <span id="year"></span></span></div></footer>
+
+  <dialog id="certificateDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-head"><div><h3 id="dialogTitle"></h3><p id="dialogMeta"></p></div><button class="dialog-close" id="dialogClose" type="button" aria-label="Close preview">×</button></div>
+    <img class="dialog-image" id="dialogImage" alt="">
+    <div class="dialog-actions"><a id="dialogOriginal" href="#" target="_blank" rel="noopener">Open original credential ↗</a><a class="secondary" id="dialogVerify" href="#" target="_blank" rel="noopener" hidden>Verify credential ↗</a></div>
+  </dialog>
+
+  <script src="certificates/data.js"></script>
+  <script>
+    (function(){
+      document.getElementById("year").textContent = new Date().getFullYear();
+      const themeButton=document.getElementById("themeToggle");
+      try { if(localStorage.getItem("portfolio-theme")==="light") document.body.dataset.theme="light"; } catch(e){}
+      themeButton.addEventListener("click",function(){
+        const light=document.body.dataset.theme!=="light";
+        if(light) document.body.dataset.theme="light"; else delete document.body.dataset.theme;
+        try { localStorage.setItem("portfolio-theme",light?"light":"dark"); } catch(e){}
+      });
+
+      const records=Array.isArray(window.CERTIFICATES)?window.CERTIFICATES:[];
+      const grid=document.getElementById("credentialGrid");
+      const search=document.getElementById("credentialSearch");
+      const category=document.getElementById("credentialCategory");
+      const count=document.getElementById("credentialCount");
+      const dialog=document.getElementById("certificateDialog");
+      const allCategories=Array.from(new Map(records.map(function(item){return [item.category,item.categoryLabel]})).entries()).sort(function(a,b){return String(a[1]).localeCompare(String(b[1]))});
+      allCategories.forEach(function(pair){
+        const option=document.createElement("option");
+        option.value=pair[0];option.textContent=pair[1];category.appendChild(option);
+      });
+      function escapeHTML(value){
+        return String(value==null?"":value).replace(/[&<>"']/g,function(char){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]});
+      }
+      function filesFor(item){
+        const path=String(item.path||"");
+        const original="certificates/"+path.split("/").map(encodeURIComponent).join("/");
+        const pdf=String(item.format||"").toUpperCase()==="PDF"||/\.pdf$/i.test(path);
+        const leaf=path.split("/").pop();
+        const preview=pdf?"certificates/previews/"+encodeURIComponent(item.category)+"/"+encodeURIComponent(leaf.replace(/\.pdf$/i,".jpg")):original;
+        return {original:original,preview:preview,pdf:pdf};
+      }
+      function render(){
+        const term=search.value.trim().toLowerCase();
+        const activeCategory=category.value;
+        const shown=records.filter(function(item){
+          const hay=[item.title,item.issuer,item.categoryLabel,item.description].join(" ").toLowerCase();
+          return (!term||hay.includes(term))&&(!activeCategory||item.category===activeCategory);
+        });
+        count.textContent=shown.length+" of "+records.length+" credentials";
+        grid.innerHTML="";
+        if(!shown.length){grid.innerHTML='<div class="empty-state">No credentials match this search. Try a different title or learning area.</div>';return}
+        const fragment=document.createDocumentFragment();
+        shown.forEach(function(item){
+          const files=filesFor(item);
+          const button=document.createElement("button");
+          button.type="button";button.className="credential-card";button.dataset.id=item.id;
+          button.setAttribute("aria-label","Preview "+item.title+" from "+item.issuer);
+          const year=item.year||((item.date||"").slice(0,4))||"";
+          button.innerHTML='<span class="credential-image"><img loading="lazy" decoding="async" src="'+escapeHTML(files.preview)+'" alt="'+escapeHTML(item.title)+' certificate preview"><span class="credential-format">'+(files.pdf?"PDF · image":"IMAGE")+'</span></span><span class="credential-text"><span class="credential-title">'+escapeHTML(item.title)+'</span><span class="credential-issuer">'+escapeHTML(item.issuer)+(year?" · "+escapeHTML(year):"")+'</span></span>';
+          button.addEventListener("click",function(){openCredential(item,files)});
+          fragment.appendChild(button);
+        });
+        grid.appendChild(fragment);
+      }
+      function openCredential(item,files){
+        document.getElementById("dialogTitle").textContent=item.title;
+        document.getElementById("dialogMeta").textContent=[item.issuer,item.categoryLabel,item.year||((item.date||"").slice(0,4))].filter(Boolean).join(" · ");
+        const image=document.getElementById("dialogImage");
+        image.src=files.preview;image.alt=item.title+" certificate";
+        const original=document.getElementById("dialogOriginal");
+        original.href=files.original;original.textContent="Open original "+(files.pdf?"PDF":"image")+" ↗";
+        const verify=document.getElementById("dialogVerify");
+        if(item.verifyUrl){verify.hidden=false;verify.href=item.verifyUrl}else{verify.hidden=true;verify.removeAttribute("href")}
+        dialog.showModal();
+      }
+      search.addEventListener("input",render);category.addEventListener("change",render);
+      document.getElementById("dialogClose").addEventListener("click",function(){dialog.close()});
+      dialog.addEventListener("click",function(event){if(event.target===dialog)dialog.close()});
+      render();
+    })();
+  </script>
+</body>
+</html>
